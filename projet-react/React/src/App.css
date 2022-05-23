@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+#banniere{
+  background-image: url("https://thumbs.dreamstime.com/b/coffee-banner-collage-espresso-beans-51189295.jpg");
+  position:absolute;
+  width:100%;
+  left:0px;
+  right: 0px;
+  height: 200px;
+  background-size:100%;
+  -webkit-filter : opacity(50%);
+  filter : opacity(50%);
+  z-index:-1;
+}
+.navbar {
+  background-color: #111111;
+  width: 100%;
+}
+.mt-5 {
+  margin-top: 5rem!important;
+}
+.nav-tabs{border-bottom: none;}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.a:hover {
+  color:white;
+  background-color: #111111;
+}
+.clicboite {
+  border:2px solid #FFFFFF!important;
+}
+.btn {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  text-align: center;
+  border: 2px solid #AAAAAA;
+}
+.boutonpage{
+  background-color: black;
+  color:white!important;
+}
+.boutonpage:hover {
+  background-color: white!important;
+  color: black!important;
+}
+.nav .btn:hover{
+  background-color: white;
+  color: #111111;
+  border:2px solid #111111;
+}
+.btn-danger{
+  padding: 13px;
+}
+
+.btn-success:hover {
+cursor: pointer;
+  text-decoration-color: forestgreen;
+  border-color: forestgreen;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.a {text-decoration: none;}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+img {
+  width:8%;
+}
+
+h1 {
+  text-decoration: none;
+  color:black;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.btn:hover {
+  color: #111111;
+  background-color: white;
+}
+.btn-warning{
+  background-color:#ed8a20;
+}
+h2 {
+  font-family: Verdana;
+  margin-top: 20px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.imageBoutique {
+  width: 11rem;
+}
+
+.icone {
+  width: 30px;
+  height: 30px;
+}
+.row{max-width: 100%;}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.card{border:none;}
+
+.mb-5 {margin-bottom: 4rem!important;}
+
+.caseEmploye {
+  grid-column: 2;
+  grid-row: 2 / 7;
+  text-align: center;
+  height: 280px;
+  width: 50%;
+  display: block;
+  margin-right: 300px!important;
+  margin-left: auto!important;
+
+}
+.dropdown-toggle-split::after, .dropend .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after {
+  margin-left: 10px;
+}
+.categ{width: 215px;margin-right: 70px;margin-top:50px;}
+.titreCase{margin-top:100px;}
+.caseInvite {
+  grid-column: 1;
+  grid-row: 2 / 8;
+  text-align: center;
+  height: 280px;
+  width: 50%;
+  display: block;
+  margin-right: auto!important;
+  margin-left: 300px!important;
+}
+
+.formulaire {
+  width: 600px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
